@@ -1,0 +1,70 @@
+{
+  "data" : [
+    {
+        "name": "Overview",
+        "url": "/item1"
+    },
+    {
+      "name": "My Account",
+      "url": "/item2"
+    },
+    {
+        "name": "Favorites",
+        "url": "/item3"
+      },
+    {
+      "name": "Soccer",
+      "children": [
+        {
+          "name": " Brazil",
+          "url": "/contenido"
+        },
+        {
+          "name": " USA",
+          "url": "/contenido"
+        },
+        {
+          "name": " France",
+          "url": "/contenido"
+        },
+        {
+          "name": " Spain",
+          "url": "/contenido"
+        }
+      ]
+    },
+    {
+      "name": "Basketball",
+      "children": [
+        {
+          "name": "  Spain",
+          "url": "/contenido"
+        },
+        {
+          "name": " England",
+          "url": "/contenido"
+        },
+        {
+          "name": " Turkey",
+          "url": "/contenido"
+        }]
+    },
+        {
+          "name": "Hockey",
+          "children": [
+            {
+              "name": " Russia",
+              "url": "/contenido"
+            },
+            {
+              "name": " Canada",
+              "url": "/contenido"
+            },
+            {
+              "name": " Norway",
+              "url": "/contenido"
+            }
+          ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+.contenedor {
+    display: inline-flex;
+}
+
+.content-card {
+    display: -webkit-box !important;
+}
+
+.card {
+    width: 80% !important;
+}
+
+.col-md-6 {
+    flex: 0 0 100% !important;
+    max-width: 48% !important;
+}
+
+.col-md-12 {
+    flex: 0 0 400% !important;
+    max-width: 400% !important;
+}
