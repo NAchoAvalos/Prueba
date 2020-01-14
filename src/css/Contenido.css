@@ -16,6 +16,35 @@
 }
 
 .col-md-12 {
-    flex: 0 0 400% !important;
-    max-width: 400% !important;
+    position: absolute !important;
+}
+
+.class-accordion {
+    width: 100% !important;
+}
+
+.class-card-header {
+    background-color: #338aff  !important;
+    padding: unset !important;
+}
+
+.col-md-2, .panel {
+    margin-left: -23% !important;
+}
+
+.expandir {
+    display: none !important;   
+}
+
+.oculto {
+    display: none !important;
+}
+
+.visible {
+    display: "" !important;
+    margin-left: -121% !important;
+}
+
+.expand{
+    margin-left: 25% !important ;
 }

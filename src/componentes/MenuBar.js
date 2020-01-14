@@ -44,8 +44,13 @@ class MenuBar extends Component {
                             button
                             key={subOption.name}>
                             <Link
-                                to={subOption.url}
-                                className={classes.links}>
+                                to={{pathname:subOption.url,
+                                aboutProps:{
+                                    nombre:subOption.name,
+                                    ligas:subOption.ligas,
+                                                                }}}
+                                className={classes.links}
+                                >
                                 <ListItemText
                                     inset
                                     primary={subOption.name}

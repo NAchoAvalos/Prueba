@@ -1,35 +1,79 @@
 {
-  "data" : [
+  "data": [
     {
-        "name": "Overview",
-        "url": "/item1"
+      "name": "Overview",
+      "url": "/"
     },
     {
       "name": "My Account",
-      "url": "/item2"
+      "url": "/"
     },
     {
-        "name": "Favorites",
-        "url": "/item3"
-      },
+      "name": "Favorites",
+      "url": "/"
+    },
     {
       "name": "Soccer",
       "children": [
         {
           "name": " Brazil",
-          "url": "/contenido"
+          "url": "/contenido",
+          "ligas": [
+            {
+              "title": "Soccer Brazil Liga 1"
+            },
+            {
+              "title": "Soccer Brazil Liga 2"
+            },
+            {
+              "title": "Soccer Brazil Liga 3"
+            }
+          ]
         },
         {
           "name": " USA",
-          "url": "/contenido"
+          "url": "/contenido",
+          "ligas": [
+            {
+              "title": "Soccer USA Liga 1"
+            },
+            {
+              "title": "Soccer USA Liga 2"
+            },
+            {
+              "title": "Soccer USA Liga 3"
+            }
+          ]
         },
         {
           "name": " France",
-          "url": "/contenido"
+          "url": "/contenido",
+          "ligas": [
+            {
+              "title": "Soccer France Liga 1"
+            },
+            {
+              "title": "Soccer France Liga 2"
+            },
+            {
+              "title": "Soccer France Liga 3"
+            }
+          ]
         },
         {
           "name": " Spain",
-          "url": "/contenido"
+          "url": "/contenido",
+          "ligas": [
+            {
+              "title": "Soccer Spain Liga 1"
+            },
+            {
+              "title": "Soccer Spain Liga 2"
+            },
+            {
+              "title": "Soccer Spain Liga 3"
+            }
+          ]
         }
       ]
     },
@@ -38,33 +82,100 @@
       "children": [
         {
           "name": "  Spain",
-          "url": "/contenido"
+          "url": "/contenido",
+          "ligas": [
+            {
+              "title": "Basketball Spain Liga 1"
+            },
+            {
+              "title": "Basketball Spain Liga 2"
+            },
+            {
+              "title": "Basketball Spain Liga 3"
+            }
+          ]
         },
         {
           "name": " England",
-          "url": "/contenido"
+          "url": "/contenido",
+          "ligas": [
+            {
+              "title": "Basketball England Liga 1"
+            },
+            {
+              "title": "Basketball England Liga 2"
+            },
+            {
+              "title": "Basketball England Liga 3"
+            }
+          ]
         },
         {
           "name": " Turkey",
-          "url": "/contenido"
-        }]
-    },
-        {
-          "name": "Hockey",
-          "children": [
+          "url": "/contenido",
+          "ligas": [
             {
-              "name": " Russia",
-              "url": "/contenido"
+              "title": "Basketball Turkey Liga 1"
             },
             {
-              "name": " Canada",
-              "url": "/contenido"
+              "title": "Basketball Turkey Liga 2"
             },
             {
-              "name": " Norway",
-              "url": "/contenido"
+              "title": "Basketball Turkey Liga 3"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Hockey",
+      "children": [
+        {
+          "name": " Russia",
+          "url": "/contenido",
+          "ligas": [
+            {
+              "title": "Hockey Russia Liga 1"
+            },
+            {
+              "title": "Hockey Russia Liga 2"
+            },
+            {
+              "title": "Hockey Russia Liga 3"
+            }
+          ]
+        },
+        {
+          "name": " Canada",
+          "url": "/contenido",
+          "ligas": [
+            {
+              "title": "Hockey Canada Liga 1"
+            },
+            {
+              "title": "Hockey Canada Liga 2"
+            },
+            {
+              "title": "Hockey Canada Liga 3"
+            }
+          ]
+        },
+        {
+          "name": " Norway",
+          "url": "/contenido",
+          "ligas": [
+            {
+              "title": "Hockey Norway Liga 1"
+            },
+            {
+              "title": "Hockey Norway Liga 2"
+            },
+            {
+              "title": "Hockey Norway Liga 3"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

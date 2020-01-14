@@ -1,6 +1,8 @@
 .MenuBar-list-1 {
     margin-top: 3.5% !important;
     background-color: #338aff !important;
+    width: 16% !important;
+    height: 90% !important;
 }
 
 .MuiListItem-button {
@@ -9,6 +11,18 @@
 }
 
 .MenuBar-links-2 {
-    color: white !important;
+    color: black !important;
+}
+
+.children {
+    border-bottom: 0.5px black solid !important;
+    border-top: 0.5px black solid !important;
+    background-color: white !important;
+    color: black !important;
+    font-size: 10px !important;
+}
+
+.MuiDrawer-paper{
+    position: absolute !important;
 }
 

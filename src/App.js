@@ -20,8 +20,9 @@ class App extends Component {
   return (
     <div className="App">
     <Header title="Examen 1" items={items} />
-    <MenuBar/>
+    
     <section>
+    <MenuBar/>
     <Content body={children} />
     </section>
     </div>
